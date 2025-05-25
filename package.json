@@ -1,14 +1,15 @@
 {
   "name": "5.6-secrets-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Creating a website for practising api",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "suvedhaa",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.4.0",
